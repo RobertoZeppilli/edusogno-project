@@ -1,0 +1,86 @@
+@import '../../index.css';
+
+.numbers {
+    padding: var(--padding-section);
+    background-color: var(--green);
+    background-image: url(../../assets/dark-blue-circle.png), url(../../assets/orange-circle.png);
+  background-position: 12% 12%, 89% 55%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.numbers-headline {
+    text-align: center;
+    margin-bottom: var(--margin-bottom-md);
+}
+
+.numbers-headline__text {
+    font-size: var(--subtitle-size);
+    color: var(--clr-white);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.numbers-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.numbers-box {
+    width: var(--boxes-w);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reverse {
+    width: var(--boxes-w);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.numbers-box__inner {
+    position: relative;
+    height: var(--boxes-h);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding);
+    text-align: center;
+    border-radius: var(--radius);
+    border: 2px solid #333;
+    box-shadow: var(--box-shadow);
+    background-color: #fff;
+}
+.numbers-box__inner p {
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-sm);
+}
+.numbers-box__inner h4 {
+    margin-bottom: var(--margin-bottom-xs);
+}
+.numbers-box__text {
+    height: var(--boxes-h);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--clr-white);
+}
+
+.numbers-box__text h4 {
+    font-size: var(--font-50);
+}
+.numbers-box__text p {
+    font-size: var(--font-30);
+}
+
+
+
+

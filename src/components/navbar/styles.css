@@ -1,0 +1,34 @@
+@import '../../index.css';
+
+
+.navbar {
+    padding: var(--padding-y);
+    background-color: var(--background);
+}
+.social-icons__item {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons__link {
+    display: block;
+    margin: var(--margin-x-sm);
+}
+.navbar-list__item {
+    margin: var(--margin-x);
+}
+.navbar-list__item .navbar-list__item__link {
+    color: var(--dark-blue-text);
+    text-decoration: none;
+    transition: var(--transition);
+    font-weight: 700;
+}
+
+.navbar-list__item .navbar-list__item__link:hover {
+    color: var(--orange);
+}
+
+.active {
+    border-bottom: 2px solid var(--orange);
+}
