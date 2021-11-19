@@ -6,7 +6,7 @@
     --clr-grey: #7c7b7b;
     --transition: all 0.3s ease-in-out;
     --spacing: 0.1rem;
-    --radius: 0.25rem;
+    --radius: 0.75rem;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     --max-width: 1270px;
@@ -19,6 +19,7 @@
 
     /* HEIGHT */
     --boxes-h: 180px;
+    
     /* COLORS */
     /* primary colors */
     --green: #5CB65E;
@@ -35,29 +36,37 @@
     --padding-x: 0 1.45rem;
     --btn-padding-lg: .65rem 2.55rem;
     --padding-section: 2.75rem 0;
+    --padding-section-md: 4rem 0;
     --padding: 30px;
 
     /* margins */
     --margin-x: 0 1.45rem;
     --margin-x-sm: 0 .35rem;
     --margin-y: 1.45rem 0;
-    --margin-top: 1.45rem;
+    --margin-y-xs: .85rem 0;
+    --margin-top: 35px;
     --margin-bottom-lg: 2.45rem;
     --margin-bottom-md: 2.75rem;
+    --margin-bottom-sm: 1.85rem;
     --margin-bottom-xs: .85rem;
 
     /* FONT */
     /* sizes */
+    --title-size: 35px;
     --subtitle-size: 34px;
     --main-text-size: 60px; 
     --font-size-xs: 16px;
     --font-size-sm: 26px;
+    --font-24: 24px;
     --font-50: 50px;
+    --font-40: 40px;
     --font-30: 30px;
+    --font-20: 20px;
 
     /* line-height */
     --line-height-lg: 44.2px;  
     --line-height-sm: 24px;
+    --line-height-md: 40px;
 
     /* letter spacing */
     --letter-spacing: .1rem;

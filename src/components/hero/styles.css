@@ -11,34 +11,19 @@
 }
 .hero-headline__main {
     font-size: var(--main-text-size);
+    color: var(--dark-blue-text);
 }
 
 .hero-headline__subtitle {
     margin: var(--margin-y);
     color: var(--green);
 }
+.hero-headline__subtitle__subtitle {
+    color: var(--dark-blue-text);
+}
 
 .hero-headline__subtitle,
 .hero-headline__subtitle__subtitle {
     font-size: var(--subtitle-size);
     line-height: var(--line-height-lg);
-}
-
-.hero-cta {
-    margin-top: var(--margin-top);
-    padding: var(--btn-padding-lg);
-    font-family: 'Manrope', sans-serif;
-    font-weight: bold;
-    font-size: var(--font-size-xs);
-    line-height: var(--line-height-sm);
-    letter-spacing: var(--letter-spacing);
-    border-radius: var(--radius);
-    color: var(--clr-white);
-    background-color: var(--green);
-}
-
-.hero-cta:hover {
-    border: 1px solid var(--green);
-    color: var(--green);
-    background-color: transparent;
 }

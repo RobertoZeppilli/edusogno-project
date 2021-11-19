@@ -1,0 +1,64 @@
+@import '../../index.css';
+
+.stories {
+    position: relative;
+    background-image: url(../../assets/orange-circle.png), url(../../assets/dark-blue-circle.png), url(../../assets/green-points.png);
+    background-position: 5% 7%, 32% 92%, 4% 78%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.stories::before {
+    content: '';
+    position: absolute;
+    top: -150px;
+    right: 10px;
+    width: 420px;
+    height: 420px;
+    background-image: url(../../assets/stories-einstein.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clouds {
+    padding: var(--padding-section);
+    background-image: url(../../assets/green-clouds.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 56%;
+}
+.stories-headline {
+    margin-bottom: var(--margin-bottom-md);
+}
+.stories-headline__text {
+    font-size: var(--title-size);
+    color: var(--dark-blue);
+}
+
+.stories-content {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    margin-bottom: var(--margin-bottom-md);
+}
+
+.stories-content__video {
+    background-color: #fff;
+    height: 100%;
+    width: 30%;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--radius);
+}
+.stories-content__text {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.stories-content__text p {
+    font-size: var(--font-30);
+}
+.stories-content__text__name {
+    font-size: var(--font-30);
+    color: var(--green);
+}

@@ -1,15 +1,17 @@
 @import '../../index.css';
 
 .overview {
-    padding: var(--padding-section);
+    padding: 80px 0;
     background-color: var(--background);
 }
+
 .overview-headline {
     text-align: center;
     margin-bottom: var(--margin-bottom-md);
 }
 .overview-headline__text {
-    font-size: var(--subtitle-size);
+    font-size: var(--title-size);
+    color: var(--dark-blue-text);
 }
 .orange-text {
     width: 100%;

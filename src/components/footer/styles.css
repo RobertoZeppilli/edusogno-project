@@ -1,0 +1,40 @@
+@import '../../index.css';
+
+.footer {
+    background-color: var(--dark-blue);
+}
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 2px solid var(--clr-white);
+}
+
+.footer-top__logo img {
+    height: 80px;
+}
+.footer-list__item {
+    margin: 0 30px;
+}
+.footer-list__item__link {
+    text-decoration: none;
+    color: var(--clr-white);
+    transition: var(--transition);
+    font-weight: 800;
+}
+.footer-list__item__link:hover {
+    color:var(--orange);
+}
+
+.social-footer h5 {
+    font-size: var(--font-30);
+    color: var(--clr-white);
+}
+.footer-bottom {
+    padding: 5px 0;
+}
+.footer-bottom p {
+    font-size: 14px;
+    color: var(--clr-white);
+}

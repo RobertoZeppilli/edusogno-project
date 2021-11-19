@@ -1,12 +1,6 @@
-@import '../../index.css';
+@import '../../../index.css';
 
-
-.navbar {
-    padding: var(--padding-y);
-    background-color: var(--background);
-}
-
-/* .navbar-list__item {
+.navbar-list__item {
     margin: var(--margin-x);
 }
 .navbar-list__item .navbar-list__item__link {
@@ -22,4 +16,4 @@
 
 .active {
     border-bottom: 2px solid var(--orange);
-} */
+}

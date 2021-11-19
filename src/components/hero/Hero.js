@@ -10,7 +10,7 @@ const Hero = () => {
                     <p className="hero-headline__subtitle">Sogni di studiare in una Top University all’estero per una carriera brillante?</p>
                     <p className="hero-headline__subtitle__subtitle">Sei nel posto giusto! 😁</p>
 
-                    <button type="button" className="btn hero-cta">
+                    <button type="button" className="btn cta">
                         scopri i nostri servizi
                     </button>
                 </div>

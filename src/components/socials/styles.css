@@ -1,0 +1,12 @@
+@import '../../index.css';
+
+.social-icons__item {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--margin-x-sm);
+}
+.social-icons__link {
+    display: block;
+}

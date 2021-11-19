@@ -1,0 +1,37 @@
+@import '../../index.css';
+
+.path {
+    padding: var(--padding-section);
+    background-image: url(../../assets/orange-empty-circle.png);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-color: var(--dark-blue);
+}
+
+.path-headline {
+    margin-bottom: var(--margin-bottom-md);
+}
+
+.path-headline__text {
+    font-size: var(--title-size);
+    color: var(--clr-white);
+}
+
+.path-boxes__inner {
+    padding: var(--padding);
+    border: 2px solid var(--green);
+    text-align: center;
+    background-color: var(--clr-white);
+    border-radius: var(--radius);
+}
+.path-boxes__inner__title {
+    font-size: var(--font-30);
+    margin-bottom: var(--margin-bottom-xs);
+}
+.path-boxes__inner__content {
+    font-size: var(--font-24);
+}
+
+.cta-container {
+    text-align: center;
+}

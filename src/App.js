@@ -2,12 +2,12 @@ import React from 'react'
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import './index.css';
 
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 
 // pages
 import Home from './pages/home/Home';
@@ -29,6 +29,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/faq" element={<Faq />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
